@@ -25,7 +25,6 @@ export default function Home() {
           <span className="text-4xl font-bold"> ${amount}</span>
         </h2>
       </div>
-
       <Elements stripe={stripePromise}
         options={{
           mode: "payment",
